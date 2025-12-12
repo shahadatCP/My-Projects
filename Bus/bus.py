@@ -17,7 +17,6 @@ class Bus:
         if self.total_seats > self.booked_seats:
             self.booked_seats += 1
             Bus.earning += 500
-            print('\nSeat Booked Successfully!\n')
         else:
             print('\nSeat not available!\n')
 
