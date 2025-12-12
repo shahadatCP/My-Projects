@@ -112,7 +112,7 @@ while True:
                     "2. View All Buses\n"
                     "3. Logout")
             
-                admin_input = int(input('\nEnter your choce : '))
+                admin_input = int(input('\nEnter your choice : '))
                 if admin_input == 1:
                     number = input('Enter bus number : ')
                     route = input('Enter bus route : ')
